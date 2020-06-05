@@ -1,5 +1,5 @@
 """
-Solution makes use of whole division to account fo the fact numbers may be extremely large
+Solution makes use of whole division to account for the fact numbers may be extremely large
 """
 
 def solution(m,f):
@@ -13,7 +13,7 @@ def solution(m,f):
     while m>1 or f>1:
         # if mach a lot more than facula it will shrink the size considerably depending on multiple
         if (m>f):
-            if (m/f)<10:
+            if (m/f)<100:
                 m-=f
                 counter+=1
             else:
